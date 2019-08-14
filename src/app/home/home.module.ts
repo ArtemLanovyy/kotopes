@@ -9,6 +9,7 @@ import { HomeComponent } from './home.component';
 
 import { SectionsModule } from '../sections/sections.module';
 import { LogoModule } from '../shared/logo/logo.module';
+import { ResultCardListModule } from '../shared/result-card-list/result-card-list.module';
 
 @NgModule({
     imports: [
@@ -18,6 +19,7 @@ import { LogoModule } from '../shared/logo/logo.module';
         RouterModule,
         SectionsModule,
         LogoModule,
+        ResultCardListModule,
     ],
     declarations: [ HomeComponent ],
     exports: [ HomeComponent ],

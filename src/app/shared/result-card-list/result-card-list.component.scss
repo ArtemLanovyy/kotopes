@@ -1,0 +1,14 @@
+.card {
+    margin: 15px 0;
+}
+
+.round-item {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 182px;
+    height: 182px;
+
+    &:hover {
+        border-radius: 0;
+    }
+}
